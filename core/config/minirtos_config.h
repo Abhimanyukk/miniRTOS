@@ -1,0 +1,8 @@
+#ifndef MINIRTOS_CONFIG_H
+#define MINIRTOS_CONFIG_H
+
+#define MAX_TASKS 8
+#define LOG_BUFFER_SIZE 32
+#define LOG_MSG_MAX_LEN 128
+
+#endif /* MINIRTOS_CONFIG_H */
