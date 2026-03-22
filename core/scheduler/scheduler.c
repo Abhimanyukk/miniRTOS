@@ -1,6 +1,6 @@
 #include "scheduler.h"
-#include "../config/minirtos_config.h"
-#include "../../platform/platform.h"
+#include "config/minirtos_config.h"
+#include "platform.h"
 
 typedef struct
 {

@@ -1,6 +1,6 @@
 #include "logger.h"
-#include "../config/minirtos_config.h"
-#include "../../platform/platform.h"
+#include "config/minirtos_config.h"
+#include "platform.h"
 
 #include <stdarg.h>
 #include <stdio.h>

@@ -3,21 +3,25 @@
  * Adapt when targeting ESP32.
  */
 
-#include "../platform.h"
+#include "platform.h"
 #include "esp_timer.h"
 
-uint32_t platform_get_time_ms(void) {
+uint32_t platform_get_time_ms(void)
+{
     return (uint32_t)(esp_timer_get_time() / 1000);
 }
 
-void platform_log_output(const char *msg) {
+void platform_log_output(const char *msg)
+{
     printf("%s\n", msg);
 }
 
-void platform_enter_critical(void) {
+void platform_enter_critical(void)
+{
     /* TODO: use portENTER_CRITICAL */
 }
 
-void platform_exit_critical(void) {
+void platform_exit_critical(void)
+{
     /* TODO: use portEXIT_CRITICAL */
 }

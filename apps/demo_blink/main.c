@@ -1,5 +1,5 @@
-#include "../../core/scheduler/scheduler.h"
-#include "../../core/logger/logger.h"
+#include "scheduler/scheduler.h"
+#include "logger/logger.h"
 
 static void blink_task(void)
 {
