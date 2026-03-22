@@ -1,9 +1,7 @@
 /* STM32 platform implementation - stub
  * Requires STM32 HAL or bare-metal setup to build.
- * Uncomment and adapt when targeting STM32.
+ * Adapt when targeting STM32.
  */
-
-#if 0
 
 #include "../platform.h"
 #include "stm32f4xx_hal.h"
@@ -24,5 +22,3 @@ void platform_enter_critical(void) {
 void platform_exit_critical(void) {
     __enable_irq();
 }
-
-#endif

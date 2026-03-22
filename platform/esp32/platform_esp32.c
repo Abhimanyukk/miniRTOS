@@ -1,9 +1,7 @@
 /* ESP32 platform implementation - stub
  * Requires ESP-IDF to build.
- * Uncomment and adapt when targeting ESP32.
+ * Adapt when targeting ESP32.
  */
-
-#if 0
 
 #include "../platform.h"
 #include "esp_timer.h"
@@ -23,5 +21,3 @@ void platform_enter_critical(void) {
 void platform_exit_critical(void) {
     /* TODO: use portEXIT_CRITICAL */
 }
-
-#endif
